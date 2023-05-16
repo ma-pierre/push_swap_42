@@ -6,7 +6,7 @@
 /*   By: mapierre <mapierre@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 23:47:58 by mapierre          #+#    #+#             */
-/*   Updated: 2023/05/16 20:07:52 by mapierre         ###   ########.fr       */
+/*   Updated: 2023/05/16 21:00:22 by mapierre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ struct	s_stack
 };
 
 long long int	*ft_parsing(int ac, char **av);
-long long int	ft_atoll(const char *str);
 long long int	*ft_convert_arg(int ac, char **av, long long int *tab);
 int				ft_arg_isdigit(int ac, char **av);
 int				ft_findmin(t_stack **s);
@@ -43,8 +42,6 @@ void			ft_sort3(t_stack **head);
 int				ft_sort5(t_stack **a, t_stack **b);
 void			ft_sclear(t_stack **head);
 int				fillstack(int ac, t_stack **a, long long int *tab);
-void			print_pilea(t_stack **a);
-void			print_pileb(t_stack **a);
 int				ft_even_or_odd(int number);
 void			ft_clear(t_stack **stack);
 int				ft_findmax(t_stack	**s);
